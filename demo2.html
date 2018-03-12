@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>加载完成进度条</title>
+    <style>
+        .loading {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            background-color: #fff;
+        }
+
+        .loading .pic {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            background: url('./loading.gif') no-repeat center;
+        }
+    </style>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+        document.onreadystatechange=function(){
+            if(document.readyState=="complete")
+            {
+                $(".loading").fadeOut();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="pic"></div>
+    </div>
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030122&di=e7b7d4483797cb439e6efd5bd6e7be20&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-10-14%2F59e1bb9f01314.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030140&di=5272fb8ae015ba9a3d4287ce383ec87c&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387ccbaddb7.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=2e1afbf38d19d7642da3e3e5ea801849&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fdbb44aed2e738bd41f16dd0daa8b87d6277ff9d3.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=6b70b7aae8d0e9fc366622204d2ee0bf&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387cdbbdfe0.jpg"
+        alt="">
+    </div>
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030122&di=e7b7d4483797cb439e6efd5bd6e7be20&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-10-14%2F59e1bb9f01314.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030140&di=5272fb8ae015ba9a3d4287ce383ec87c&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387ccbaddb7.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=2e1afbf38d19d7642da3e3e5ea801849&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fdbb44aed2e738bd41f16dd0daa8b87d6277ff9d3.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=6b70b7aae8d0e9fc366622204d2ee0bf&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387cdbbdfe0.jpg"
+        alt="">
+    </div>
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030122&di=e7b7d4483797cb439e6efd5bd6e7be20&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-10-14%2F59e1bb9f01314.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030140&di=5272fb8ae015ba9a3d4287ce383ec87c&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387ccbaddb7.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=2e1afbf38d19d7642da3e3e5ea801849&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fdbb44aed2e738bd41f16dd0daa8b87d6277ff9d3.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=6b70b7aae8d0e9fc366622204d2ee0bf&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387cdbbdfe0.jpg"
+        alt="">
+          </div>
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030122&di=e7b7d4483797cb439e6efd5bd6e7be20&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-10-14%2F59e1bb9f01314.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1521030140&di=5272fb8ae015ba9a3d4287ce383ec87c&imgtype=jpg&er=1&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387ccbaddb7.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=2e1afbf38d19d7642da3e3e5ea801849&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fdbb44aed2e738bd41f16dd0daa8b87d6277ff9d3.jpg"
+        alt="">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1520435465780&di=6b70b7aae8d0e9fc366622204d2ee0bf&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2017-12-19%2F5a387cdbbdfe0.jpg"
+        alt="">
+        <video src="F:\共享视频\hhxd.mkv" controls></video>
+</body>
+
+</html>
